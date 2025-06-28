@@ -5,8 +5,7 @@ const store = useMarkdownStore()
 </script>
 
 <template>
-  <div class="preview-wrapper">
-    {{ store.mdContent }}
+  <div class="preview-wrapper" v-html="store.mdContent">
   </div>
 </template>
 
@@ -16,5 +15,6 @@ const store = useMarkdownStore()
   padding: 15px;
   border: 1px solid #dcdfe6;
   border-radius: 4px;
+  overflow: auto;
 }
 </style>

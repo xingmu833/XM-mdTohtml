@@ -1,9 +1,9 @@
-.mini-md-h1,
-.mini-md-h2,
-.mini-md-h3,
-.mini-md-h4,
-.mini-md-h5,
-.mini-md-h6 {
+.xm-mdtohtml-h1,
+.xm-mdtohtml-h2,
+.xm-mdtohtml-h3,
+.xm-mdtohtml-h4,
+.xm-mdtohtml-h5,
+.xm-mdtohtml-h6 {
   width: 100%;
   display: block;
   padding: 0 10px;
@@ -13,31 +13,31 @@
   font-weight: 700;
 }
 
-.mini-md-h1 {
+.xm-mdtohtml-h1 {
   font-size: 2em;
 }
 
-.mini-md-h2 {
+.xm-mdtohtml-h2 {
   font-size: 1.5em;
 }
 
-.mini-md-h3 {
+.xm-mdtohtml-h3 {
   font-size: 1.25em;
 }
 
-.mini-md-h4 {
+.xm-mdtohtml-h4 {
   font-size: 1em;
 }
 
-.mini-md-h5 {
+.xm-mdtohtml-h5 {
   font-size: 0.875em;
 }
 
-.mini-md-h6 {
+.xm-mdtohtml-h6 {
   font-size: 0.85em;
 }
 
-.mini-md-inline-code {
+.xm-mdtohtml-inline-code {
   line-height: 22px;
   padding: 2px 4px;
   color: #3594f7;
@@ -45,18 +45,18 @@
   border-radius: 4px;
 }
 
-.mini-md-link {
+.xm-mdtohtml-link {
   color: #2d8cf0;
   text-decoration: none;
   transition: color 0.3s;
   cursor: pointer;
 }
 
-.mini-md-link:hover {
+.xm-mdtohtml-link:hover {
   color: #73d13d;
 }
 
-.mini-md-image {
+.xm-mdtohtml-image {
   max-width: 100%;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -65,14 +65,14 @@
   padding: 5px;
 }
 
-.mini-md-hr {
+.xm-mdtohtml-hr {
   border: none;
   border-top: 1px solid #e6e6e6;
   height: 1px;
   margin: 10px 0;
 }
 
-.mini-md-blockquote {
+.xm-mdtohtml-blockquote {
   display: block;
   line-height: 2em;
   margin: 20px 0;
@@ -82,69 +82,69 @@
   color: #3f4a54;
 }
 
-.mini-md-table {
+.xm-mdtohtml-table {
   width: 50%;
   border-collapse: collapse;
   margin: 20px 0;
 }
 
-.mini-md-th,
-.mini-md-td {
+.xm-mdtohtml-th,
+.xm-mdtohtml-td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
 
-.mini-md-th {
+.xm-mdtohtml-th {
   background-color: #f2f2f2;
 }
 
-.mini-md-tr:hover {
+.xm-mdtohtml-tr:hover {
   background-color: #f5f5f5;
 }
 
-.mini-md-ul,
-.mini-md-ol {
+.xm-mdtohtml-ul,
+.xm-mdtohtml-ol {
   margin: 0.6em 0;
   padding-inline-start: 30px;
   list-style: initial;
 }
 
-.mini-md-li {
+.xm-mdtohtml-li {
   list-style: initial;
 }
 
-.mini-md-li::marker {
+.xm-mdtohtml-li::marker {
   color: #1456f0;
 }
 
-.mini-md-ul > .mini-md-li {
+.xm-mdtohtml-ul > .xm-mdtohtml-li {
   list-style-type: disc;
 }
-.mini-md-ul .mini-md-ul > .mini-md-li {
+.xm-mdtohtml-ul .xm-mdtohtml-ul > .xm-mdtohtml-li {
   list-style-type: circle;
 }
-.mini-md-ul .mini-md-ul .mini-md-ul > .mini-md-li {
+.xm-mdtohtml-ul .xm-mdtohtml-ul .xm-mdtohtml-ul > .xm-mdtohtml-li {
   list-style-type: square;
 }
-.mini-md-ol > .mini-md-li {
+.xm-mdtohtml-ol > .xm-mdtohtml-li {
   list-style-type: decimal;
 }
-.mini-md-ol .mini-md-ol > .mini-md-li {
+.xm-mdtohtml-ol .xm-mdtohtml-ol > .xm-mdtohtml-li {
   list-style-type: lower-alpha;
 }
-.mini-md-ol .mini-md-ol .mini-md-ol > .mini-md-li {
+.xm-mdtohtml-ol .xm-mdtohtml-ol .xm-mdtohtml-ol > .xm-mdtohtml-li {
   list-style-type: lower-roman;
 }
 
-.mini-md-code-container {
+.xm-mdtohtml-code-container {
   font-size: 12px;
   line-height: 1;
   margin: 20px 0;
   position: relative;
 }
 
-.mini-md-code-container .mini-md-code-header {
+.xm-mdtohtml-code-container .xm-mdtohtml-code-header {
   background-color: #282c34;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -157,13 +157,13 @@
   width: 100%;
 }
 
-.mini-md-code-header .mini-md-code-icon {
+.xm-mdtohtml-code-header .xm-mdtohtml-code-icon {
   display: flex;
   gap: 5px;
   margin-left: 12px;
 }
 
-.mini-md-code-header .mini-md-code-icon span {
+.xm-mdtohtml-code-header .xm-mdtohtml-code-icon span {
   border-radius: 50%;
   display: inline-block;
   height: 10px;
@@ -171,29 +171,29 @@
   width: 10px;
 }
 
-.mini-md-code-icon span:nth-of-type(1) {
+.xm-mdtohtml-code-icon span:nth-of-type(1) {
   background-color: #ec6a5e;
 }
 
-.mini-md-code-icon span:nth-of-type(2) {
+.xm-mdtohtml-code-icon span:nth-of-type(2) {
   background-color: #f4bf4f;
 }
 
-.mini-md-code-icon span:nth-of-type(3) {
+.xm-mdtohtml-code-icon span:nth-of-type(3) {
   background-color: #61c554;
 }
 
-.mini-md-code-right {
+.xm-mdtohtml-code-right {
   margin-top: 10px;
   margin-right: 12px;
   color: #a9b7c6;
 }
 
-.mini-md-code-container pre {
+.xm-mdtohtml-code-container pre {
   margin: 0;
 }
 
-.mini-md-code-container pre code {
+.xm-mdtohtml-code-container pre code {
   background-color: #282c34;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;

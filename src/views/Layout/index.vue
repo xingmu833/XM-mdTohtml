@@ -38,6 +38,7 @@ import preview from '@/views/Preview/index.vue'
       background-color: #000000;
     }
     .preview {
+      display: block;
       background-color: #c7c4c471;
       width: 49%;
     }
